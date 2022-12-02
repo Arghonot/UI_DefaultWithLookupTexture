@@ -22,6 +22,8 @@ Use the LookupTextureGenerator to generate a lookup texture.
 	7 - drop the generated lookup texture.
 	8 - fill in the amount of color pairs used in the lookup texture in your material's "Amount of color pair" property.
 
+Create a material using UI_DefaultWithLookupTable as shader.
+
 If you want the UI to be world spaced and drawn on top of meshes, change UI_DefaultWithLookupTable.shader line 67 from "ZTest [unity_GUIZTestMode]" into "ZTest Off".
 
 Enjoy !
